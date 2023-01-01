@@ -1,0 +1,9 @@
+message = {
+    blocks = {
+        minecraft:stone = {x = 30, y = 60, z = 69, nbt = {NBTSTUFF}}
+    },
+
+    otherstuff = "balls"
+}
+
+{to = "world", from = 16, protocol = "world", message = {blocks = {minecraft_stone = {x = 0, y = 0, z = 0}}}}
