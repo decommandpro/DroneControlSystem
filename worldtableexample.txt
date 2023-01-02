@@ -1,6 +1,6 @@
 message = {
     blocks = {
-        minecraft:stone = {x = 30, y = 60, z = 69, nbt = {NBTSTUFF}}
+        {name = "minecraft:stone", x = 30, y = 60, z = 69, nbt = {NBTSTUFF}}
     },
 
     otherstuff = "balls"

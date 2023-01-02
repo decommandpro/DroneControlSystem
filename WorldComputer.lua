@@ -10,9 +10,8 @@ while true do
         local id, message = bluenet.receive("world")
         for i, b in pairs(message.blocks) do
             --print(i.."  "..b)
-            local block = string.gsub(i, "_", ":")
+            local block = string.gsub(b.name, "_", ":")
             local success, out = commands.exec("setblock "..b.x.." "..b.y.." "..b.z.." "..block)
-            print(success)
         end
     until true
 end
